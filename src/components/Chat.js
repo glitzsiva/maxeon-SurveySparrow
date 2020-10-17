@@ -17,7 +17,6 @@ export default class Chat extends React.Component {
         this.setState({
             data:this.state.data.concat(botMsg)
         })
-        console.log(this.state.data)
     }
     
     sendText=(userText)=>{
